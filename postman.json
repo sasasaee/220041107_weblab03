@@ -1,0 +1,51 @@
+{"name":"Alice","email":"alice@example.com","age":25,"membershipType":"premium","active":true,"_id":"694e69ac707886c5cae5dd0f","joinDate":"2025-12-26T10:55:40.685Z","createdAt":"2025-12-26T10:55:40.691Z","updatedAt":"2025-12-26T10:55:40.691Z","__v":0}
+
+[{"_id":"694e69ac707886c5cae5dd0f","name":"Alice","email":"alice@example.com","age":25,"membershipType":"premium","active":true,"joinDate":"2025-12-26T10:55:40.685Z","createdAt":"2025-12-26T10:55:40.691Z","updatedAt":"2025-12-26T10:55:40.691Z","__v":0},{"_id":"694e57c63ff5e36552493262","name":"Bob","email":"bob@example.com","age":30,"membershipType":"basic","active":true,"joinDate":"2025-12-26T09:39:18.487Z","createdAt":"2025-12-26T09:39:18.488Z","updatedAt":"2025-12-26T09:39:18.488Z","__v":0},{"_id":"694e57873ff5e3655249325f","name":"Ethan","email":"ethan@example.com","age":28,"membershipType":"basic","active":true,"joinDate":"2025-12-26T09:38:15.650Z","createdAt":"2025-12-26T09:38:15.651Z","updatedAt":"2025-12-26T09:38:15.651Z","__v":0},{"_id":"694e57793ff5e3655249325d","name":"Diana","email":"diana@example.com","age":35,"membershipType":"premium","active":true,"joinDate":"2025-12-26T09:38:01.758Z","createdAt":"2025-12-26T09:38:01.759Z","updatedAt":"2025-12-26T09:38:01.759Z","__v":0},{"_id":"694e576a3ff5e3655249325b","name":"Charlie","email":"charlie@example.com","age":40,"membershipType":"elite","active":true,"joinDate":"2025-12-26T09:37:46.713Z","createdAt":"2025-12-26T09:37:46.714Z","updatedAt":"2025-12-26T09:37:46.714Z","__v":0},{"_id":"694e56e53ff5e36552493259","name":"Alice","email":"alice@example.com","age":25,"membershipType":"premium","active":true,"joinDate":"2025-12-26T09:35:33.240Z","createdAt":"2025-12-26T09:35:33.248Z","updatedAt":"2025-12-26T09:35:33.248Z","__v":0},{"membershipType":"basic","active":true,"_id":"694d61b1ce582b010df23a5d","name":"Bob","age":30,"__v":0,"joinDate":"2025-12-26T10:56:44.274Z"},{"membershipType":"basic","active":true,"_id":"694d68292b2fd2f40eac4df4","name":"Alice","age":25,"__v":0,"joinDate":"2025-12-26T10:56:44.274Z"}]
+
+{
+    "_id": "694e5a05fef4db49a20d87a6",
+    "name": "John Trainer",
+    "email": "john.trainer@example.com",
+    "specialization": [
+        "cardio",
+        "strength"
+    ],
+    "experienceYears": 5,
+    "hourlyRate": 30,
+    "available": true,
+    "certifications": [
+        "ACE",
+        "NASM"
+    ],
+    "createdAt": "2025-12-26T09:48:53.117Z",
+    "updatedAt": "2025-12-26T09:51:51.582Z",
+    "__v": 0
+}
+
+{
+    "_id": "694e5a05fef4db49a20d87a6",
+    "name": "John Trainer",
+    "email": "john.trainer@example.com",
+    "specialization": [
+        "cardio",
+        "strength"
+    ],
+    "experienceYears": 5,
+    "hourlyRate": 30,
+    "available": true,
+    "certifications": [
+        "ACE",
+        "NASM"
+    ],
+    "createdAt": "2025-12-26T09:48:53.117Z",
+    "updatedAt": "2025-12-26T11:01:30.429Z",
+    "__v": 0
+}
+
+{"user":"694e576a3ff5e3655249325b","trainer":"694e5a05fef4db49a20d87a6","workoutTypes":["cardio","strength"],"scheduledAt":"2025-12-27T10:00:00.000Z","status":"scheduled","notes":"Focus on strength training","_id":"694e6c66707886c5cae5dd16","createdAt":"2025-12-26T11:07:18.879Z","updatedAt":"2025-12-26T11:07:18.879Z","__v":0}
+
+http://localhost:3000/api/users
+http://localhost:3000/api/users
+http://localhost:3000/api/trainers/694e5a05fef4db49a20d87a6
+http://localhost:3000/api/trainers/694e5a05fef4db49a20d87a6
+http://localhost:3000/api/schedules
